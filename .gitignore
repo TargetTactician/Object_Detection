@@ -1,0 +1,8 @@
+# .gitignore
+
+__pycache__/
+*.py[cod]
+*.log
+.env
+.DS_Store
+.ipynb_checkpoints/
