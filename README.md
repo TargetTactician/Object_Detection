@@ -5,7 +5,7 @@ This project performs real-time object detection and tracking using **YOLOv11n**
 ---
 
 ## 📸 Demo
-
+The Output Video file is stored in "data/output" directory.
 
 ---
 
