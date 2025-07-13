@@ -4,12 +4,12 @@ This project performs real-time object detection and tracking using **YOLOv11n**
 
 ---
 
-## 📸 Demo
+## Demo
 The Output Video file is stored in "data/output" directory.
 
 ---
 
-## 🚀 Features
+## Features
 
 - ✅ Real-time object detection using [Ultralytics YOLOv11n](https://github.com/ultralytics/ultralytics)
 - ✅ Object tracking using Deep SORT with appearance-based re-identification
@@ -18,7 +18,7 @@ The Output Video file is stored in "data/output" directory.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 .
@@ -77,7 +77,7 @@ VIDEO_PATH = "data/test/people.mp4"  # Use video file instead of webcam
 
 ---
 
-## 🧠 Model Notes
+## Model Notes
 
 * **YOLOv11n** (nano) is used for speed. You can switch to `yolov11s.pt`, `yolov11m.pt`, etc., for better accuracy.
 * The model supports 80 COCO classes (person, bottle, cell phone, laptop, etc.)
@@ -90,7 +90,7 @@ print(detector.model.names)
 
 ---
 
-## 🎯 Applications
+## Applications
 
 * Smart surveillance
 * Traffic monitoring
@@ -99,19 +99,13 @@ print(detector.model.names)
 
 ---
 
-## 📌 YOLO + Deep SORT Workflow
+## YOLO + Deep SORT Workflow
 
 1. Detect objects using YOLOv8
 2. Extract bounding boxes and classes
 3. Feed them to Deep SORT for multi-object tracking
 4. Assign consistent track IDs across frames
 5. Visualize and save the output
-
----
-
-## 🧾 License
-
-This project is open source under the [MIT License](LICENSE).
 
 ---
 
